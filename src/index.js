@@ -24,7 +24,7 @@ const skillBuilder = Alexa.SkillBuilders.custom()
 
 const APP_NAME = "City Biking"
 const WELCOME_PROMPT = `To continue say, give me a fact, or something like 'bikes in ${helper.getRandomCity()}. `
-const ERROR_MESSAGE = 'Sorry, I didn\'t understand the command. Please say again.'
+const ERROR_MESSAGE = 'Sorry, I didn\'t understand the command. '
 
 const MAX_RESULTS = 4
 
@@ -97,9 +97,10 @@ const ErrorHandler = {
     },
     handle(handlerInput, error) {
         console.log(`Error handled: ${error.message}`);
+        const errorMessage = `${ERROR_MESSAGE} ${WELCOME_PROMPT}`
         return handlerInput.responseBuilder
-            .speak(ERROR_MESSAGE)
-            .reprompt(ERROR_MESSAGE)
+            .speak(errorMessage)
+            .reprompt(errorMessage)
             .getResponse();
     }
 };

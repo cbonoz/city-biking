@@ -27,11 +27,15 @@
                     "name": "BikeFactIntent",
                     "slots": [],
                     "samples": [
+                        "a fact",
+                        "a bike fact",
                         "for a fact",
                         "for a biking fact",
                         "tell me a fact",
+                        "tell me a bike fact",
                         "tell me a biking fact",
                         "give me a fact",
+                        "give me a bike fact",
                         "give me a biking fact"
                     ]
                 },
