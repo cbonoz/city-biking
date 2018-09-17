@@ -1,0 +1,24 @@
+{
+  "name": "alexagood18",
+  "version": "1.0.0",
+  "description": "Bike-a-lot is an alexa skill that promotes and tracks user's biking behavior",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "social",
+    "good",
+    "aws"
+  ],
+  "author": "Chris Buonocore",
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk-core": "^2.0.7",
+    "ask-sdk-model": "^1.4.1",
+    "axios": "^0.18.0",
+    "fuse.js": "^3.2.1"
+  }
+}

@@ -1,0 +1,73 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "city biking",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PauseIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "BikeFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "for a fact",
+                        "for a biking fact",
+                        "tell me a fact",
+                        "tell me a biking fact",
+                        "give me a fact",
+                        "give me a biking fact"
+                    ]
+                },
+                {
+                    "name": "CityBikeIntent",
+                    "slots": [
+                        {
+                            "name": "StateName",
+                            "type": "AMAZON.US_STATE"
+                        },
+                        {
+                            "name": "CityName",
+                            "type": "AMAZON.US_CITY"
+                        }
+                    ],
+                    "samples": [
+                        "city bikes in {CityName} {StateName}",
+                        "city bikes in {CityName}",
+                        "bikes in {CityName} {StateName}",
+                        "bikes in {CityName}"
+                    ]
+                },
+                {
+                    "name": "StationIntent",
+                    "slots": [
+                        {
+                            "name": "StreetName",
+                            "type": "AMAZON.PostalAddress"
+                        }
+                    ],
+                    "samples": [
+                        "{StreetName}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
