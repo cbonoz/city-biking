@@ -4,12 +4,13 @@
 
 City Biking
 ---
-NodeJS alexa skill for finding information on city bikes in your town.
+Open Source NodeJS alexa skill for finding real time information on public bikes in your town.
 
 ### Concept
 
 You can ask the city biking alexa skill for information on the number of city bikes at stations across the United States.
 This alexa skill will understand fuzzy queries about particular streets and locations, and give you the number of free bikes at these locations in real time.
+Also has a database of facts on biking history and healthy biking you can tap into.
 
 Find out how many bikes there are before you leave the house.
 
