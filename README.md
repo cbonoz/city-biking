@@ -27,6 +27,9 @@ You can ask the city biking alexa skill for information on the number of city bi
 
 * <b>Alexa, ask city biking for bikes in Los Angeles.</b>
 * <b>Alexa, ask city biking about bikes in Boston.</b>
+    * <b>I found Boston, MA! Say a street</b
+    * <b>Brookline</b>
+    * <b>Found a couple matches for Brookline, here's how many bikes at each station.</b>
 <br/>
 etc...
 
