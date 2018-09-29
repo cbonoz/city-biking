@@ -26,7 +26,7 @@ Submitted for the 2018 AWS Alexa Skill challenge - <a href="https://alexatechfor
 ### Usage
 You can ask the city biking alexa skill for information on the number of city bikes at stations across the United States.
 
-* <b>YOU: Alexa, ask city biking for bikes in Los Angeles.</b>
+* <b>YOU: Alexa, ask city biking for a fact.</b>
     * <b>ALEXA: Here's your fact: ...</b>
 
 * <b>YOU: Alexa, ask city biking about bikes in Boston.</b>
