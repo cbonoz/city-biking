@@ -1,4 +1,4 @@
-Transform: 'AWS::Serverless-2016-10-31'
+AWSTemplateFormatVersion: 2010-09-09
 Description: City Biking - Bike Share Alexa Skill
 Resources:
   alexacitybikingskill:
