@@ -1,12 +1,12 @@
-AWSTemplateFormatVersion: 2010-09-09
+Transform: 'AWS::Serverless-2016-10-31'
 Description: City Biking - Bike Share Alexa Skill
 Resources:
   alexacitybikingskill:
     Type: 'AWS::Lambda::Function'
     Properties:
       Code:
-        S3Bucket: <YOUR_BUCKET>
-        S3Key: <YOUR_S3_KEY>
+        S3Bucket: cf-templates-1iknw594i2ij1-us-east-1
+        S3Key: lambda.zip
       Description: City Biking - Bike Share Alexa Skill
       Tags:
         - Value: SAM
@@ -38,5 +38,3 @@ Resources:
       Action: 'lambda:invokeFunction'
       FunctionName: !Ref alexacitybikingskill
       Principal: alexa-appkit.amazon.com
-Metadata:
-  Name: alexa-skills-kit-city-biking-skill
